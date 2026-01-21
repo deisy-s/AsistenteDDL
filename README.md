@@ -12,20 +12,17 @@
 
 ## Description
 <p>
-  This repository contains a DDL assistant project created utilizing C# on Windows Forms in Visual Studio. The assistant was made for localhost on SQL Server, therefore the queries 
-  utilized are in Transact-SQL. This project can create users on SQL Server, log users in to SQL Server, create and assign roles to users, obtain databases, tables, views 
-  and table information from a user, create tables and fields in a database, as well as execute queries in a database, whether those be CREATE or SELECT queries.
+  A graphical database manager developed in C# (Windows Forms) for the local management of SQL Server instances. The application acts as an intuitive bridge for executing complex Transact-SQL commands, allowing you to manage both server security and data structure.
 </p>
 
 ## Project functionalities
-- Assign roles to SQL Server users
-- Create a new role for SQL Server users
-- Create a new field in a table
-- Create a new table in a database
-- Create a new user in SQL Server
-- Delete a field in a table
-- Execute queries
-- User log-in to SQL Server
+- **Security Management:** A complete module for user creation, authentication, and permission management through role assignment.
+
+- **Object Exploration:** Hierarchical visualization of databases, tables, and views associated with a specific user.
+
+- **Schema Designer:** An interface for dynamically creating tables and defining fields.
+
+- **Execution Console:** An integrated query engine with support for DDL (CREATE) and DML (SELECT) statements.
 
 ## Technologies used
 - C#

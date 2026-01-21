@@ -1,4 +1,4 @@
-# Asistente de Lenguaje de Definición de Datos
+# Asistente de Lenguaje de Definición de Datos en SQL Server
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
 ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
 ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
@@ -12,21 +12,14 @@
 
 ## Descripción
 <p>
-  Este repositorio contiene un asistente DDL, el cual fue creado utilizando C# en Windows Forms en Visual Studio. El asistente fue creado para localhost en SQL Server, por lo
-  cual los queries ejecutados en el código son en Transact-SQL. Este proyecto puede crear usuarios en SQL Server, iniciar la sesión de los usuarios en SQL Server, crear y asignar
-  roles a los usuarios, obtener bases de datos, tablas, vistas e información de tablas que le pertenecen a un usuario, crear tablas y campos en una base de datos, además de ejecutar
-  queries en una base de datos, ya sean CREATE o SELECT.
+  Administrador gráfico de bases de datos desarrollado en C# (Windows Forms) para la gestión local de instancias de SQL Server. La aplicación actúa como un puente intuitivo para ejecutar comandos complejos de Transact-SQL, permitiendo gestionar tanto la seguridad del servidor como la estructura de los datos.
 </p>
 
 ## Funcionalidades de proyecto
-- Asignar roles a usuarios de SQL Server
-- Crear un rol nuevo para usuarios de SQL Server
-- Crear un campo nuevo en una tabla
-- Crear una tabla nueva en una base de datos
-- Crear un usuario nuevo en SQL Server
-- Eliminar un campo en una tabla
-- Ejecutar queries
-- Iniciar sesión en SQL Server
+- **Gestión de Seguridad:** Módulo completo para la creación de usuarios, autenticación y administración de permisos mediante la asignación de roles.
+- **Exploración de Objetos:** Visualización jerárquica de bases de datos, tablas y vistas asociadas a un usuario específico.
+- **Diseñador de Esquemas:** Interfaz para la creación de tablas y definición de campos de forma dinámica.
+- **Consola de Ejecución:** Motor de consultas integrado con soporte para sentencias DDL (CREATE) y DML (SELECT).
 
 ## Tecnologías utilizadas
 - C#
